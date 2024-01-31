@@ -1,15 +1,14 @@
-# bun-deploy
+## Deploy fly.io
 
-To install dependencies:
+https://fly.io/blog/flydotio-heart-bun/
 
-```bash
-bun install
-```
+- `flyctl launch`
+- `flyctl deploy`
 
-To run:
+## Deploy railway.app
 
-```bash
-bun run src/index.ts
-```
+## Deploy koyeb.com
 
-This project was created using `bun init` in bun v1.0.23. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Deploy render.com
+
+## Deploy digitalocean.com (talvez)

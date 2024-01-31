@@ -1,8 +1,13 @@
 {
-  "name": "bun-deploy",
+  "name": "bun-daciuk",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --hot src/index.ts"
+  },
   "devDependencies": {
+    "@flydotio/dockerfile": "latest",
     "@types/bun": "latest"
   },
   "peerDependencies": {
